@@ -1,25 +1,35 @@
-# Projeto Conibase
+# Conibase — Sistema de Gestão de Estoque
 
-Sistema de controle de produtos recebidos em loja de materiais de construção.
+Sistema em Python desenvolvido para resolver um problema real da empresa 
+onde trabalho: controle de estoque, busca de produtos por cliente e 
+acompanhamento de retirada de mercadorias.
 
-## Problema
-Produtos chegam com código RP + número da loja.
-Ninguém registra. Cliente vai buscar e ninguém sabe onde está nem de quem é.
+## Funcionalidades
 
-## Solução
-Cadastro com: código RP, loja, produto, cliente, CPF e localização física.
-Dados salvos em JSON.
-
-## Status
-- [x] Cadastro de produto
-- [x] Salvar em JSON
-- [x] Acumular produtos sem sobrescrever
-- [x] Número do pedido
-- [x] Nota fiscal do fornecedor
-- [x] Data de chegada automática
-- [ ] Consulta por CPF ou nome
-- [ ] Marcar como retirado
+- Cadastro de produto com código RP, loja, cliente, CPF, localização física, 
+  número do pedido, nota fiscal e data de chegada
+- Busca de produto por CPF do cliente
+- Marcação de produto como retirado
+- Persistência completa dos dados em arquivo JSON (não perde nada ao fechar)
 
 ## Tecnologias
-- Python 3.14
-- JSON
+
+- Python 3
+- Módulo `json` para persistência de dados
+- Módulo `datetime` para registro de data/hora do cadastro
+
+## Como executar
+'''
+
+python projeto_conibase.py
+
+'''
+## Próximos passos
+
+- Migração da persistência para SQLite
+- Criação de API com FastAPI
+
+## Autor
+
+Paulo Ricardo Ferreira — Estudante de ADS | Mackenzie
+[LinkedIn](https://www.linkedin.com/in/paulorifer/) | [GitHub](https://github.com/paulorifer)
