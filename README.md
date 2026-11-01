@@ -1,4 +1,4 @@
-# Conibase — Sistema de Gestão de Estoque
+# Controle de Retiradas — Sistema de Gestão de Estoque
 
 Sistema em Python desenvolvido para resolver um problema real da empresa 
 onde trabalho: controle de estoque, busca de produtos por cliente e 
