@@ -18,12 +18,6 @@ acompanhamento de retirada de mercadorias.
 - Módulo `json` para persistência de dados
 - Módulo `datetime` para registro de data/hora do cadastro
 
-## Como executar
-'''
-
-python projeto_conibase.py
-
-'''
 ## Próximos passos
 
 - Migração da persistência para SQLite
